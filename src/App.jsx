@@ -8,33 +8,21 @@ export default function App(){
 
   const Container = styled.div`
     height: 100vh;
-    scroll-snap-type: y mandatory;
-    scroll-behavior: smooth;
-    overflow-y: auto;
-    ::-webkit-scrollbar-thumb{
-      display:none;
-    }
+
+    
 
     /* Hide scrollbar for Chrome, Safari and Opera */
  /* code to be written */
  
   `;
-  const parentDiv = styled.div`
-    overflow: hidden;
-    ::-webkit-scrollbar-thumb{
-      display:none;
-    }
-    
-  `
-
   return(
-  <parentDiv>
+  
     <Container>
       <Hero />
       <Who />
       <Works />
       <Contact />
     </Container>
-    </parentDiv>
+
   );
 }
