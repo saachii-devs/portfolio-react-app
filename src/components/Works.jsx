@@ -4,7 +4,8 @@ export default function Works(){
 
     const Section = styled.div`
       height: 100vh;
-      background-color: #FFFFE0;
+      
+      scroll-snap-align:center;
     `;
 
     return(

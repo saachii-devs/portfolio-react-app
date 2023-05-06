@@ -8,12 +8,7 @@ export default function App(){
 
   const Container = styled.div`
     height: 100vh;
-
-    
-
-    /* Hide scrollbar for Chrome, Safari and Opera */
- /* code to be written */
- 
+  
   `;
   return(
   

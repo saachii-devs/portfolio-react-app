@@ -4,7 +4,8 @@ export default function Contact(){
 
     const Section = styled.div`
       height: 100vh;
-      background-color: #FFA07A;
+     
+      scroll-snap-align:center;
     `;
 
     return(

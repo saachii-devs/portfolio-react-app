@@ -10,4 +10,11 @@
     margin: 0;
     padding: 0;
     -ms-overflow-style:none;
+    scroll-behavior:  smooth;
+    color: white;
+    background: url("./public/img/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: stretch;
   }
+
+ 

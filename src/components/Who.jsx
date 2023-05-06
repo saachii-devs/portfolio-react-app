@@ -4,7 +4,8 @@ export default function Who(){
 
     const Section = styled.div`
       height: 100vh;
-      background-color: yellow;
+     
+      scroll-snap-align:center;
     `;
 
     return(

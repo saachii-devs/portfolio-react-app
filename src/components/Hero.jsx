@@ -4,13 +4,13 @@ export default function Hero(){
 
     const Section = styled.div`
       height: 100vh;
-      background-color: rebeccapurple;
+      scroll-snap-align:center;
       
     `;
 
     return(
         <Section>
-            
+            here is the text 
         </Section>
     );
 }
